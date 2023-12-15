@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Document</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" integrity="sha512-b2QcS5SsA8tZodcDtGRELiGv5SaKSk1vDHDaQRda0htPYWZ6046lr3kJ5bAAQdpV2mmA/4v0wQF9MyU6/pDIAg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./main.css">
+
+</head>
+<body>
+  
+  <div id="background" style="background-image:url('https://i.gyazo.com/0da525e539783530448930f6d5975a12.jpg');">
+    <div id="effect-1"></div>
+    <div id="effect-2"></div>
+  </div>
+  
+  <div nv-component="Main" class="container-fluid">
+    
+    <small class="text-secondary d-block text-center my-2"><b>Alat Pencari Kuaci</b> -.-</small>
+    
+    <div class="container mb-5 py-3 sticky-top">
+      <form onsubmit="NV.run('Main').search(event)" class="d-flex">
+        <div class="mx-1 flex-grow-1">
+          <input list="crystaNameList" name="name" placeholder="Cyrsta Name" class="form-control shadow-sm">
+          <datalist id="crystaNameList"></datalist>
+        </div>
+        <div class="mx-1">
+          <button class="btn btn-dark shadow-sm">🚀</button>
+        </div>
+      </form>
+    </div>
+
+    <div class="container">
+      <div class="row g-5">
+        <div class="col-sm-4">
+          <small class="d-flex align-items-center">
+            <hr class="flex-grow-1">
+            <span class="mx-2">Downgrade</span>
+            <hr class="flex-grow-1">
+          </small>
+          <ol id="output-down" type="1"></ol>
+        </div>
+        <div class="col-sm-4">
+          <small class="d-flex align-items-center">
+            <hr class="flex-grow-1">
+            <span class="mx-2">Current Choose</span>
+            <hr class="flex-grow-1">
+          </small>
+          <ol id="output"></ol>
+        </div>
+        <div class="col-sm-4">
+          <small class="d-flex align-items-center">
+            <hr class="flex-grow-1">
+            <span class="mx-2">Upgrade</span>
+            <hr class="flex-grow-1">
+          </small>
+          <ol id="output-up" type="1"></ol>
+        </div>
+      </div>
+    </div>
+
+    <small class="text-secondary d-block text-center">Created By 🎲 Anwar Achilles</small>
+
+  </div>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js" integrity="sha512-X/YkDZyjTf4wyc2Vy16YGCPHwAY8rZJY+POgokZjQB2mhIRFJCckEGc6YyX9eNsPfn0PzThEuNs+uaomE5CO6A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/leader-line/1.0.3/leader-line.min.js" integrity="sha512-aFBNsI3+D6ObLLtyKwdZPZzDbcCC6+Bh+2UNV8HC0R95BpcBT+dmmZ5NMpJi/Ic8uO0W7FGcg33IfuHg+7Ryew==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="./nirvana-3.6.js"></script>
+  <script src="./environment.js"></script>
+  <script src="./store.js"></script>
+  <script src="./main.js"></script>
+
+</body>
+</html>
