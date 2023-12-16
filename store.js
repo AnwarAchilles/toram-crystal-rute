@@ -1340,7 +1340,7 @@ NV.store("Crystal", [
   Critical Rate +10
   MaxHP -400
   MaxMP -400
-  With Perisai:
+  With Shield:
   Short Range Damage +5%
   STR +1%
     `,
@@ -1521,7 +1521,7 @@ NV.store("Crystal", [
   Short Range Damage +5%
   Attack MP Recovery +20
   Accuracy +50
-  With Tombak:
+  With Halberd:
   Long Range Damage +5%
     `,
   }),
@@ -1789,7 +1789,7 @@ NV.store("Crystal", [
   ATK +9%
   AGI +7%
   Aggro -15%
-  With Sarung Tinju:
+  With Knuckle:
   Dodge Absolut +5%
                    
       
@@ -1835,7 +1835,7 @@ NV.store("Crystal", [
   Physical Resistance -7%
   With Knuckle:
   Aggro +15%
-  Dengan Pedang 1 Tangan:
+  With One Hand Sword:
   Aggro +15%
     `,
   }),
@@ -1943,7 +1943,7 @@ NV.store("Crystal", [
   Evasion Recharge +15%
   Magical Resistance +6%
   MATK +6%
-  With Zirah Ringan:
+  With Light Armor:
   MATK UP (AGI25%)
     `,
   }),
@@ -3152,7 +3152,7 @@ NV.store("Crystal", [
       MATK+8%
       Critical Damage +8
       MaxHP +1000
-      With Zirah Berat:
+      With Heavy Armor:
       Aggro +20%
     `,
   }),
@@ -3195,7 +3195,7 @@ NV.store("Crystal", [
   INT +3%
   Long Range Damage -6%
   Tumble Unavailable
-  With Perisai:
+  With Shield:
   Aggro -50%
     `,
   }),
@@ -3228,9 +3228,9 @@ NV.store("Crystal", [
   Anticipate +4%
   Physical Resistance -16%
   Magical Resistance -8%
-  With Belati:
+  With Dagger:
   Critical Damage +1%
-  Dengan Pedang Ganda :
+  With Dual Sword:
   Aggro -20%
     `,
   }),
@@ -3267,7 +3267,7 @@ NV.store("Crystal", [
       Long Range Damage +4%
   Unsheathe Attack +4%
   Aggro -20%
-  With Tongkat 
+  With Halberd: 
   MATK +6%
     `,
   }),
@@ -3389,7 +3389,7 @@ NV.store("Crystal", [
       ATK +5%
   AGI +5%
   Aggro -5%
-  With Sarung Tinju:
+  With Knuckle:
   Dodge Absolut +5%
     `,
   }),
@@ -3663,10 +3663,10 @@ NV.store("Crystal", [
       Stability +11%
   STR +6%
   VIT +6%
-  With Zirah Ringan:
+  With Light Armor:
   Short Range Damage +11%
   Stability -5%
-  Dengan Zirah Berat:
+  With Heavy Armor:
   Long Range Damage +11%
   Stability -5%
     `,
@@ -3773,7 +3773,7 @@ NV.store("Crystal", [
   Critical Rate +8
   MaxHP -400
   MaxMP -400
-  With Tameng
+  With Shield:
   Short Range Damage +4%
     `,
   }),
@@ -4069,7 +4069,7 @@ NV.store("Crystal", [
   Short Range Damage +4%
   ASPD +500
   Long Range Damage -12%
-  With Kitab Ninjutsu:
+  With Ninjustu Scroll:
   Unsheathe Attack +5%
   Critical Rate +5
     `,
@@ -4096,7 +4096,7 @@ NV.store("Crystal", [
   CSPD +20%
   Evasion Recharge +10%
   MaxMP -300
-  With Perisai:
+  With Shield:
   Stability +5%
   ATK -10%
     `,
@@ -4110,11 +4110,11 @@ NV.store("Crystal", [
       MaxMP +300
   Long Range Damage +3%
   DEX +3%
-  With Panah:
+  With Arrow:
   Daya Jarak Jauh +5%
-  Dengan Belati:
+  With Dagger:
   Additional Melee +50%
-  Dengan Perisai:
+  With Shield:
   Aggro +25%
     `,
   }),
@@ -4163,7 +4163,7 @@ NV.store("Crystal", [
     view: ` 
       Guard Break +10%
   Physical Pierce +10%
-  With Pedang 2 Tangan:
+  With Dual Sword:
   Guard Recharge +25%
   Guard Power +25%
     `,
@@ -4177,7 +4177,7 @@ NV.store("Crystal", [
       Attack MP Recovery +5
   VIT +5%
   Ailment Resistance +5%
-  With Perisai:
+  With Shield:
   Aggro +15%
     `,
   }),
@@ -4230,9 +4230,9 @@ NV.store("Crystal", [
       MATK +9%
   CSPD +9%
   Anticipate +9%
-  With Tongkat :
+  With Halberd:
   Aggro -9%
-  Dengan Perisai :
+  With Shield:
   Aggro +9%
     `,
   }),
@@ -4559,9 +4559,9 @@ NV.store("Crystal", [
     view: ` 
       MATK +9% INT +3%
   Stability +6%
-  With Tongkat:
+  With Halberd:
   Guard Break +10%
-  Dengan Pesawat Sihir:
+  With Magic Device:
   Reduksi DMG (Bowling) +20%
     `,
   }),
@@ -4623,7 +4623,7 @@ NV.store("Crystal", [
   Critical Rate +12
   MATK -4%
   Physical Resistance -20%
-  With Zirah Berat:
+  With Heavy Armor:
   Kekebalan Fisik +24%
     `,
   }),
@@ -4684,7 +4684,7 @@ NV.store("Crystal", [
       MaxHP +3000
       VIT +2%
       Critical Rate +10
-      With Sarung Tinju:
+      With Knuckle:
       Short Range Damage +3%
     `,
   }),
@@ -4697,7 +4697,7 @@ NV.store("Crystal", [
       MATK +6%
       Critical Damage +6
       MaxHP +1000
-      With Zirah Berat:
+      With Heavy Armor:
       Aggro +10%
     `,
   }),
