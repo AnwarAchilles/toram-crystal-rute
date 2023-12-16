@@ -5025,7 +5025,42 @@ NV.store("Crystal", [
       Accuracy 4%
       Critical Rate 4%
     `,
-  })
+  }),
+  _map({
+    code: 482,
+    link: 323,
+    type: "UPGRADE",
+    name: "Diark",
+    view: `
+      MATK +8%
+      Magic Pierce +20%
+      Cast Speed -16%
+    `,
+  }),
+  _map({
+    code: 483,
+    link: 234,
+    type: "UPGRADE",
+    name: "Gegner",
+    view: `
+      MATK +10%
+      INT +6%
+      Cast Speed +40%
+      Attack MP Recovery +10%
+    `,
+  }),
+  _map({
+    code: 484,
+    link: null,
+    type: "SPECIAL",
+    name: "Scream Shadow",
+    view: `
+      MaxMP +300
+      Critical Rate +20%
+      Cast Speed +1000
+      DEF -40%
+    `,
+  }),
 ]);
 
 
