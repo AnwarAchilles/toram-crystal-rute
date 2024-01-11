@@ -1,4 +1,5 @@
 {
+  "base": "https://anwarachilles.masuk.id/crysta",
   "name": "Toram Crysta Tools",
   "desc": "Web Tools for game Toram Online, help finding a route upgrade or downgrade Crysta",
   "icon": "/achilles.icon.png"
